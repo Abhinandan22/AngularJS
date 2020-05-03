@@ -1,0 +1,8 @@
+1 ) Printing the arrays of the arguments 
+
+var searchPeople = function(first,last,height,age){
+return 'Joe Dow';
+}
+
+console.log(angular.injector().annotate(searchPeople));
+
