@@ -10,7 +10,7 @@
     <body ng-init="name='Abhinandan'">
         
         <div ng-hide = "hide">    //Here ng-hide is a directive used to hide the field
-        Name:<input type = "text" ng-model="name" /> //Here name is the property.ng-model for data binding
+        Name:<input type = "text" ng-model="name" /> {{name}} //Here name is the property.ng-model for data binding //can use span for this also
         </div>
        
         Hide:<input type = "checkbox" ng-model="hide" />
