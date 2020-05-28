@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app>
+   <head>
+    
+      <title>AngularJS Hello World</title>
+    
+    </head>
+     
+    
+    <body ng-init="people=[{name:'Abhi',city:'Bengaluru'},{name:'Kunu',city:'Bhadrak'},{name:'Kunu',city:'Toronto'}]">
+        
+        <ul>
+
+         
+            <li ng-repeat = "person in people">{{person}}</li>
+            
+        </ul>
+        
+        <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+   
+    
+    </body>
+
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html ng-app>
+   <head>
+    
+      <title>AngularJS Hello World</title>
+    
+    </head>
+     
+    
+    <body ng-init="people=[{name:'Abhi',city:'Bengaluru'},{name:'Kunu',city:'Bhadrak'},{name:'Kunu',city:'Toronto'}]">
+        
+        <ul>
+
+         
+            <li ng-repeat = "person in people">{{person.name}}</li>
+            
+        </ul>
+        
+        <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+   
+    
+    </body>
+
+</html>
+
